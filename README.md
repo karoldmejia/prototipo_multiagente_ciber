@@ -1,5 +1,7 @@
 # Prototipo de Sistema Multiagente con RAG, Herramientas y MCP sobre Ollama
 
+Karold Lizeth Mejia Orozco (A00401806)
+
 ## Descripción General
 
 Este prototipo implementa una arquitectura de agentes multiagente con:
