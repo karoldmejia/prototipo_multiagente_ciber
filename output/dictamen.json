@@ -1,0 +1,41 @@
+{
+  "mission": "Consulta las políticas de seguridad y busca cualquier indicio de inyección en los logs",
+  "timestamp": "2026-11-18T15:15:54.958110",
+  "configurations_comparison": {
+    "multi_agent": {
+      "quality_score": 0.82,
+      "tokens_total": 1000,
+      "latency_total": 0.002,
+      "risks_detected": [],
+      "steps_executed": 0
+    },
+    "single_agent": {
+      "quality_score": 0.0,
+      "tokens_total": 1000,
+      "latency_total": 0.0,
+      "risks_detected": [],
+      "steps_executed": 0
+    }
+  },
+  "comparison": {
+    "quality_difference": 0.82,
+    "token_difference": 0,
+    "latency_difference": 0.002,
+    "better_configuration": "multi-agent"
+  },
+  "risk_analysis": {
+    "multi_agent_risks": [],
+    "single_agent_risks": [],
+    "multi_agent_detected_more": true,
+    "summary": "No risks detected in either configuration."
+  },
+  "metrics": {
+    "tokens_input": 400,
+    "tokens_output": 600,
+    "latency_total_seconds": 0.002052783966064453,
+    "num_steps": 0,
+    "steps": [],
+    "timestamp": "2026-11-18T15:15:54.958143"
+  },
+  "overall_verdict": "MULTI-AGENT: Better quality offset by higher cost"
+}
